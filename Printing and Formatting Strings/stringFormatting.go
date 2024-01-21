@@ -21,10 +21,10 @@ func main(){
 	fmt.Printf("my age is %v and my name is %v",age,name)
 	fmt.Printf("my age is %q and my name is %q",age,name) // here %q will find the variables and print them out in double quotes
 	fmt.Printf("age is of type %T",age) // %T get us the type of the varaible we declared
-	fmt.Printf("you scored %0.2f points!\n",255.55)
+	fmt.Printf("you scored %0.2f points!\n",255.55) //%f is used to print float values
 
 	//Sprintf (save formatted strings)
 
-	var str=fmt.Sprintf("my age is %v and my name is %v\n",age,name)
+	var str=fmt.Sprintf("my age is %v and my name is %v\n",age,name) // Sprintf is used to save formatted strings 
 	fmt.Println(str)
 }
