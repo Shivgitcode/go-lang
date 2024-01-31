@@ -13,7 +13,7 @@ func main(){
 
 	fmt.Println(&name)
 
-	pname:=&name;
+	pname:=&name; //ampersant(&) is used to access memory location of the variable and
 
 	updateName(pname)
 	fmt.Println(*pname)
